@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "dgSpecHash": "P5rwVoqD+qg=",
+  "success": false,
+  "projectFilePath": "C:\\Users\\kattamudi.h\\source\\repos\\adodemo\\TestProject2\\TestProject2.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project moq is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project moq supports: net9.0 (.NETCoreApp,Version=v9.0)",
+      "projectPath": "C:\\Users\\kattamudi.h\\source\\repos\\adodemo\\TestProject2\\TestProject2.csproj",
+      "filePath": "C:\\Users\\kattamudi.h\\source\\repos\\adodemo\\TestProject2\\TestProject2.csproj",
+      "libraryId": "moq",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}

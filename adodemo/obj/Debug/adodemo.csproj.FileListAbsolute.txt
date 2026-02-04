@@ -1,0 +1,8 @@
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\bin\Debug\adodemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\bin\Debug\adodemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\bin\Debug\adodemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\obj\Debug\adodemo.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\obj\Debug\adodemo.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\obj\Debug\adodemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\obj\Debug\adodemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\adodemo\obj\Debug\adodemo.exe.config
