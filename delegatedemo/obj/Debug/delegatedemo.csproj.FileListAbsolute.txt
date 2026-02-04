@@ -1,0 +1,8 @@
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\bin\Debug\delegatedemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\bin\Debug\delegatedemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\bin\Debug\delegatedemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\obj\Debug\delegatedemo.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\obj\Debug\delegatedemo.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\obj\Debug\delegatedemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\obj\Debug\delegatedemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\delegatedemo\obj\Debug\delegatedemo.exe.config

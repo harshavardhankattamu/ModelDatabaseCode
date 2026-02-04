@@ -1,0 +1,12 @@
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\Linqdemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\Linqdemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\Linqdemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\adodemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\adodemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\bin\Debug\adodemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\Linqdemo\obj\Debug\Linqdemo.csproj.Up2Date
