@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="contactmgtdbModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="student">
+    <Key>
+      <PropertyRef Name="studentid" />
+    </Key>
+    <Property Name="studentid" Type="Int32" Nullable="false" />
+    <Property Name="studentname" Type="String" MaxLength="20" FixedLength="false" Unicode="false" />
+    <Property Name="totalmarks" Type="Int32" />
+    <Property Name="sclass" Type="Int32" />
+  </EntityType>
+  <EntityContainer Name="contactmgtdbEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="students" EntityType="Self.student" />
+    <EntitySet Name="Departments" EntityType="contactmgtdbModel.Department" />
+    <EntitySet Name="Employees" EntityType="contactmgtdbModel.Employee" />
+    <AssociationSet Name="FK_Employee_Department" Association="contactmgtdbModel.FK_Employee_Department">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <FunctionImport Name="getEmpDept" ReturnType="Collection(contactmgtdbModel.getEmpDept_Result)">
+      <Parameter Name="empid" Mode="In" Type="Int32" />
+    </FunctionImport>
+  </EntityContainer>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="department_id" />
+    </Key>
+    <Property Name="department_id" Type="Int32" Nullable="false" />
+    <Property Name="department_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="Employees" Relationship="contactmgtdbModel.FK_Employee_Department" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="employee_id" />
+    </Key>
+    <Property Name="employee_id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="employee_name" Type="String" Nullable="false" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="job_title" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="salary" Type="Decimal" Precision="10" Scale="2" />
+    <Property Name="date_of_join" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="department_id" Type="Int32" />
+    <NavigationProperty Name="Department" Relationship="contactmgtdbModel.FK_Employee_Department" FromRole="Employee" ToRole="Department" />
+  </EntityType>
+  <Association Name="FK_Employee_Department">
+    <End Type="contactmgtdbModel.Department" Role="Department" Multiplicity="0..1" />
+    <End Type="contactmgtdbModel.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="department_id" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="department_id" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <ComplexType Name="getEmpDept_Result">
+    <Property Type="Int32" Name="employee_id" Nullable="false" />
+    <Property Type="String" Name="employee_name" Nullable="false" MaxLength="50" />
+    <Property Type="String" Name="job_title" Nullable="true" MaxLength="50" />
+    <Property Type="Decimal" Name="salary" Nullable="true" Precision="10" Scale="2" />
+    <Property Type="DateTime" Name="date_of_join" Nullable="false" />
+    <Property Type="Int32" Name="department_id" Nullable="true" />
+    <Property Type="String" Name="department_name" Nullable="false" MaxLength="50" />
+  </ComplexType>
+</Schema>

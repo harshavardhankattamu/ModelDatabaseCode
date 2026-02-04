@@ -1,0 +1,13 @@
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EFDemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EFDemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EFDemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EntityFramework.dll
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EntityFramework.xml
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.csproj.Up2Date
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\EFDemo\obj\Debug\EFDemo.exe.config

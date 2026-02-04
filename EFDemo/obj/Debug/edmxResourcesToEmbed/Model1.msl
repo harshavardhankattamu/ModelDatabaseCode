@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="contactmgtdbModelStoreContainer" CdmEntityContainer="contactmgtdbEntities">
+    <EntitySetMapping Name="students">
+      <EntityTypeMapping TypeName="contactmgtdbModel.student">
+        <MappingFragment StoreEntitySet="students">
+          <ScalarProperty Name="studentid" ColumnName="studentid" />
+          <ScalarProperty Name="studentname" ColumnName="studentname" />
+          <ScalarProperty Name="totalmarks" ColumnName="totalmarks" />
+          <ScalarProperty Name="sclass" ColumnName="sclass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Departments">
+      <EntityTypeMapping TypeName="contactmgtdbModel.Department">
+        <MappingFragment StoreEntitySet="Department">
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Employees">
+      <EntityTypeMapping TypeName="contactmgtdbModel.Employee">
+        <MappingFragment StoreEntitySet="Employee">
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="date_of_join" ColumnName="date_of_join" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="job_title" ColumnName="job_title" />
+          <ScalarProperty Name="employee_name" ColumnName="employee_name" />
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="getEmpDept" FunctionName="contactmgtdbModel.Store.getEmpDept">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="contactmgtdbModel.getEmpDept_Result">
+          <ScalarProperty Name="employee_id" ColumnName="employee_id" />
+          <ScalarProperty Name="employee_name" ColumnName="employee_name" />
+          <ScalarProperty Name="job_title" ColumnName="job_title" />
+          <ScalarProperty Name="salary" ColumnName="salary" />
+          <ScalarProperty Name="date_of_join" ColumnName="date_of_join" />
+          <ScalarProperty Name="department_id" ColumnName="department_id" />
+          <ScalarProperty Name="department_name" ColumnName="department_name" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

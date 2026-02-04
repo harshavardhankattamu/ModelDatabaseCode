@@ -1,0 +1,11 @@
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\bin\Debug\disconntecddemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\bin\Debug\disconntecddemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\bin\Debug\disconntecddemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconntecddemo.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconntecddemo.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconntecddemo.exe
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconntecddemo.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconntecddemo.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\kattamudi.h\source\repos\adodemo\disconntecddemo\obj\Debug\disconnt.8F82E66B.Up2Date
