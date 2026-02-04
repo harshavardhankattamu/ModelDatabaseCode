@@ -1,0 +1,13 @@
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\ModelFirst.exe.config
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\ModelFirst.exe
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\ModelFirst.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\EntityFramework.dll
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\EntityFramework.xml
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.csproj.AssemblyReference.cache
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.csproj.CoreCompileInputs.cache
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.csproj.Up2Date
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.exe
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.pdb
+C:\Users\kattamudi.h\source\repos\adodemo\ModelFirst\obj\Debug\ModelFirst.exe.config

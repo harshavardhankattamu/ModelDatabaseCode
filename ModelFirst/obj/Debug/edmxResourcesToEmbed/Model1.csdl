@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema xmlns="http://schemas.microsoft.com/ado/2009/11/edm" xmlns:cg="http://schemas.microsoft.com/ado/2006/04/codegeneration" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" Namespace="Model1" Alias="Self" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" annotation:UseStrongSpatialTypes="false">
+  <EntityContainer Name="Model1Container" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Films" EntityType="Model1.Film" />
+    <EntitySet Name="Departments" EntityType="Model1.Department" />
+    <EntitySet Name="Employees" EntityType="Model1.Employee" />
+    <AssociationSet Name="DepartmentEmployee" Association="Model1.DepartmentEmployee">
+      <End Role="Department" EntitySet="Departments" />
+      <End Role="Employee" EntitySet="Employees" />
+    </AssociationSet>
+    <EntitySet Name="Customers" EntityType="Model1.Customer" />
+    <EntitySet Name="Customer1" EntityType="Model1.Customer1" />
+  </EntityContainer>
+  <EntityType Name="Film">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Actor" Type="String" Nullable="false" />
+    <Property Name="Actress" Type="String" Nullable="false" />
+    <Property Name="Director" Type="String" Nullable="false" />
+    <Property Name="YOR" Type="String" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Department">
+    <Key>
+      <PropertyRef Name="depid" />
+    </Key>
+    <Property Name="depid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="None" />
+    <Property Name="deptname" Type="String" Nullable="false" Unicode="false" MaxLength="50" FixedLength="false" />
+    <NavigationProperty Name="Employees" Relationship="Model1.DepartmentEmployee" FromRole="Department" ToRole="Employee" />
+  </EntityType>
+  <EntityType Name="Employee">
+    <Key>
+      <PropertyRef Name="empid" />
+    </Key>
+    <Property Name="empid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="EmpName" Type="String" Nullable="false" Unicode="false" MaxLength="20" FixedLength="false" />
+    <Property Name="salary" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Department" Relationship="Model1.DepartmentEmployee" FromRole="Employee" ToRole="Department" />
+    <Property Name="depid" Type="Int32" Nullable="false" />
+  </EntityType>
+  <Association Name="DepartmentEmployee">
+    <End Type="Model1.Department" Role="Department" Multiplicity="1" />
+    <End Type="Model1.Employee" Role="Employee" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Department">
+        <PropertyRef Name="depid" />
+      </Principal>
+      <Dependent Role="Employee">
+        <PropertyRef Name="depid" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityType Name="Customer">
+    <Key>
+      <PropertyRef Name="Custid" />
+    </Key>
+    <Property Name="Custid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+  </EntityType>
+  <EntityType Name="Customer1">
+    <Key>
+      <PropertyRef Name="Custid" />
+    </Key>
+    <Property Name="Custid" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Custname" Type="String" Nullable="false" />
+    <Property Name="address" Type="Model1.Caddress" Nullable="false" />
+    <Property Name="location" Type="Geography" Nullable="false" />
+  </EntityType>
+  <EnumType Name="Caddress">
+    <Member Name="banglore" Value="1" />
+    <Member Name="chennai" Value="2" />
+    <Member Name="delhi" Value="3" />
+  </EnumType>
+</Schema>
